@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	boder: none;
+}
+
+a{
+	color: #BF3A16;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+#main{
+    margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	background-color: #F8F8F3;
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#main #header{
+	padding-top: 30px;
+}
+
+#main #header #logo_slogan{
+	clear: both;
+	float: none;
+}
+
+#main #header #logo_slogan .logo{
+	float: left;
+	width: 19.75%;
+	border-bottom: 2px solid #FFF;
+}
+#main #header #logo_slogan .logo img{
+	width: 100%;
+}
+
+#main #header #logo_slogan .slogan{
+	float: right;
+	width: 50%;
+}
+
+#main #header #main_menu{                      
+	clear: both;
+	width: 100%;
+	height: 50px;
+	background-color: #EBE9D8;
+}
+#main #header #main_menu ul{
+	border-right: 2px solid #FFF;
+	height: 100%;
+}
+#main #header #main_menu ul li{
+	list-style: none;
+	width: 19.75%;
+	float: left;
+	text-align: center;
+	border-left: 2px solid #FFF;
+	height:100%;
+}
+#main #header #main_menu ul li:hover{
+	background-color: #D4C69C;
+}
+#main #header #main_menu ul li a{
+	width: 100%;
+	color: #000;
+	text-decoration: none;
+	line-height: 50px;
+}
+#main #header #main_menu ul li a:hover{
+	color: #FFF;	
+}
+#main #banner{
+	background-color: #F8F8F3;
+	border-bottom: 5px solid #E2E0CF;
+}
+
+#main #banner .banner_text{
+	float: left;
+}
+
+#main #banner .banner_img{
+	float: right; 
+}
+
+#main .container{
+	width: 100%;
+	padding: 30px 0;
+}
+#main #container_one{
+	background-color: #EBE9D8;
+}
+
+#main #container_two{
+    background-color: #DAD5BB;
+}
+
+#main .container .child_container{
+	float: left;
+	width: 33.33%;
+}
+
+#main .container .child_container div.headline{
+	color: #000000;
+	font-size: 30px; 
+}
+
+#main .container .child_container div.leadtext{
+	color: #904F3A;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#main .container .child_container div.toptext{
+    color: #000000;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+#main .container .child_container div.bodytext{
+	color: #000000;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+#main .container .child_container div.author{
+	margin-top: 10px;
+}
+
+#main .container .child_container div.author div{
+	float:left;
+}
+
+#main .container .child_container div.author .author_intro{
+	padding: 15px;
+}
+#main .container .child_container div.bodytext .img{margin-top: 30px}
+#main .container .child_container div.bodytext .list{list-style: none;float: right}
+
+.foram_box{ 
+	height: 50%;
+    padding: 35px;
+    width: 100%;
+	background-color: BF3A16; 
+}
+
+#main #container_two .bodytext .list_style{
+	list-style: none;
+	float: right;
+}
+
