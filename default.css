@@ -47,6 +47,14 @@ a:hover{
 	float: right;
 	width: 50%;
     text-align: right;
+    font-size: 20px;
+    margin-top: 7px;
+    font-style: italic;
+    font-family: SANS-SERIF, arial;
+}
+
+#main #header #logo_slogan .maroon_text{
+    color: #792913;
 }
 
 #main #header #main_menu{                      
@@ -86,6 +94,37 @@ a:hover{
 
 #main #banner .banner_text{
 	float: left;
+    padding-top: 45px;
+    padding-left: 20px
+}
+
+#main #banner .banner_text span{
+    display: block;
+}
+
+#main #banner .banner_text .first_span{
+    color: #9E6756;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#main #banner .banner_text .second_span{
+    font-size: 75px;
+    height: 50px;
+    margin-top: -10px;
+}
+
+#main #banner .banner_text .third_span{
+    font-size: 75px;
+    color: #BF3A16;
+    margin-left: 70px;
+    height: 50px;
+}
+
+#main #banner .banner_text .fourth_span{
+    font-size: 25px;
+    margin-left: 75px;
+    margin-top: 25px;
 }
 
 #main #banner .banner_img{
