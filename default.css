@@ -9,7 +9,7 @@ a{
 }
 
 a:hover{
-    color: #ffffff;
+    color: #FF3A16;
 }
 
 #main{
@@ -181,8 +181,36 @@ a:hover{
     color: WHITE;
 }
 
-#main #container_two .bodytext .list_style{
-	list-style: none;
-	float: right;
+#main .container ul li{
+    list-style-position: inside;
+    margin-bottom: 10px;
+}
+
+#main .container .more_links{
+    margin-top: 25px;
+}
+
+#main .container .more_links a{
+    color: #5B594C;
+}
+
+#container_one ul li{
+   list-style-image: url("images/li-image1.png");
+}
+
+#container_two ul li{
+   list-style-image: url("images/li-image1.png");
+}
+
+#footer{
+    padding: 20px 0;
+}
+
+#footer .wrapper span{
+    color: #5B594C;
+}
+
+#footer .wrapper a{
+    text-decoration: none;
 }
 
